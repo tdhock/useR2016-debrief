@@ -1,5 +1,10 @@
 useR2016 debriefing
 
+* Machine learning
+
+- [[https://github.com/h2oai/h2o-3][H2O]] is a distributed, open-source machine learning system, which has
+  interfaces in R/Python/Java.
+
 * Reproducible Research
 
 - [[http://rcloud.social/tryit/][RCloud]] is like R markdown and iPython notebooks but more
