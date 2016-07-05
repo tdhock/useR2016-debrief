@@ -34,3 +34,4 @@ works_with_R("2.14.1", ggplot2="1.0")
   very customizable.
 - [[https://rstudio.github.io/shinydashboard/][shinydashboard]] requires shiny.
 - [[http://rmarkdown.rstudio.com/flexdashboard/][flexdashboard]] does not.
+- I presented a tutorial with Claus Thorn Ekstrom about "[[https://github.com/tdhock/interactive-tutorial][Understanding and creating interactive graphics]]" 
