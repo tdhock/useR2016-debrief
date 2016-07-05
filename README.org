@@ -1,0 +1,31 @@
+useR2016 debriefing
+
+* Reproducible Research
+
+- [[http://rcloud.social/tryit/][RCloud]] is like R markdown and iPython notebooks but more
+  collaborative. If I started a lab I would set up an instance of
+  RCloud for collaboration between researchers! Here is one of my
+  notebooks
+  https://rcloud.social/view.html?notebook=1bdc0f53621a80788aaa8044bb7c529c
+- [[https://cran.r-project.org/web/packages/archivist/index.html][archivist]] package. =archive= saves R objects to github, and [[http://r-addict.com/archivist.github/][aread]]
+  reads objects from github. =restoreLibs= restores old package
+  versions, which may be necessary for interpreting the archived
+  objects (e.g. printing an archived ggplot).
+- [[https://github.com/rstudio/bookdown][bookdown]] is a new R package and [[https://bookdown.org/][publishing platform]] for reproducible
+  manuals.
+- I presented a [[https://github.com/tdhock/works-poster][poster]] about replacing =library(ggplot2)= with
+#+BEGIN_SRC R
+works_with_R("2.14.1", ggplot2="1.0")
+#+END_SRC
+
+* Data manipulation
+
+- The dev version of data.table has [[https://github.com/Rdatatable/data.table/blob/master/R/fwrite.R%20][fwrite]] which is like =write.csv=
+  but much faster (apparently even faster than [[https://github.com/wesm/feather][feather]]).
+
+* Interactive graphics
+
+- [[http://shiny.rstudio.com/articles/gadgets.html][shinygadgets]] return values chosen interactively, like =identify= but
+  very customizable.
+- [[https://rstudio.github.io/shinydashboard/][shinydashboard]] requires shiny.
+- [[http://rmarkdown.rstudio.com/flexdashboard/][flexdashboard]] does not.
