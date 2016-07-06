@@ -2,8 +2,16 @@ useR2016 debriefing
 
 * Machine learning
 
+- Erin Ledell's [[https://github.com/ledell/useR-machine-learning-tutorial][machine learning in R tutorial]].
 - [[https://github.com/h2oai/h2o-3][H2O]] is a distributed, open-source machine learning system, which has
   interfaces in R/Python/Java.
+- [[https://github.com/dmlc/xgboost][xgboost]] Extreme Gradient Boosting.
+- [[https://github.com/dmlc/mxnet][mxnet]] Deep Neural Networks.
+
+* High performance computing
+
+- [[https://github.com/HenrikBengtsson/future/][future]] package makes it easy to evaluate R code in sequence or in
+.  parallel, on local computers or on clusters ([[https://github.com/HenrikBengtsson/future.BatchJobs][future.BatchJobs]]).
 
 * Reproducible Research
 
