@@ -1,5 +1,7 @@
 useR2016 debriefing
 
+All talks were recorded (not tutorials) on https://channel9.msdn.com/Events/useR-international-R-User-conference/useR2016
+
 * Machine learning
 
 - Erin Ledell's [[https://github.com/ledell/useR-machine-learning-tutorial][machine learning in R tutorial]].
